@@ -87,7 +87,7 @@ export default function Nav() {
               className="mr-4 cursor-pointer py-1.5 text-xl font-bold flex gap-2 items-center"
               style={{ color: mode === "dark" ? "white" : "black" }}
             >
-              <img className="w-10 h-10" src="../public/logo.png" alt="logo" />
+              <img className="w-10 h-10" src="public/logo.png" alt="logo" />
               <span>Sontana</span>
             </Typography>
           </Link>
