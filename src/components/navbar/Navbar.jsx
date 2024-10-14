@@ -87,7 +87,11 @@ export default function Nav() {
               className="mr-4 cursor-pointer py-1.5 text-xl font-bold flex gap-2 items-center"
               style={{ color: mode === "dark" ? "white" : "black" }}
             >
-              <img className="w-10 h-10" src="public/logo.png" alt="logo" />
+              <img
+                className="w-10 h-10"
+                src="https://scontent.fbkk29-1.fna.fbcdn.net/v/t39.30808-6/463243724_470908045982736_7055317764166443437_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFDV5tv9RoRGDoHQpyEyODTg4U-gKkvXPiDhT6AqS9c-Gu9rG93TsCb_Oii1g-IR_FLT6etcqZ-ucVw6P55_YMf&_nc_ohc=Uky9xBql39wQ7kNvgERapjg&_nc_ht=scontent.fbkk29-1.fna&_nc_gid=AeHb4_AlvyWnExD-NAUkaMs&oh=00_AYDjO1fz2p_OsvszYbZnLVklRR97i2y1sYq6-6zC8fY25Q&oe=671332E1"
+                alt="logo"
+              />
               <span>Sontana</span>
             </Typography>
           </Link>
